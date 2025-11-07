@@ -51,6 +51,9 @@ Currently only MP3 and FLAC files are supported.
 
 ## Setting up
 
+This has been tested in macOS and Linux with [WSL for Windows](
+https://learn.microsoft.com/en-us/windows/wsl/install).
+
 ```
 git clone https://github.com/ntr0n/echo-mini-file-processor.git
 cd echo-mini-file-processor
