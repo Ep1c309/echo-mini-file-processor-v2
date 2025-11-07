@@ -79,5 +79,5 @@ It can be combined with `find` to work across multiple files.
 
 ```shell
 find /path/to/my/mini -name '*.mp3' -exec \
-    python3 process_file.py {} /;
+    python3 process_file.py {} \;
 ```
