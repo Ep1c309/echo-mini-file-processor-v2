@@ -81,3 +81,5 @@ It can be combined with `find` to work across multiple files.
 find /path/to/my/mini -name '*.mp3' -exec \
     python3 process_file.py {} \;
 ```
+
+All Creddit goes to ntr0n; this is just a quick fix :3
