@@ -76,6 +76,6 @@ class FileProcessor:
     def __build_filename(self) -> str:
         return '{} - {}{}'.format(
             self.audio_file.get_track(),
-            re.sub(r'[^a-zA-Z0-9\s]', '', self.audio_file.get_title()),
+            re.sub(r'[?/\\]', '', self.audio_file.get_title()),
             self.audio_file.file_extension
         )
