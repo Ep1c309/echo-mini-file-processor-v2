@@ -82,4 +82,4 @@ find /path/to/my/mini -name '*.mp3' -exec \
     python3 process_file.py {} \;
 ```
 
-All Creddit goes to ntr0n; this is just a quick fix :3
+All Creddit goes to [ntr0n](https://github.com/ntr0n); this is just a quick fix :3
